@@ -2,7 +2,9 @@
 title: "UniversalBank-MLProject"
 author: "Yeshil Bangera"
 date: "06/10/2022"
-output: rmarkdown::github_document
+output:
+  html_document:
+    keep_md: true
 ---
 
 

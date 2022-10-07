@@ -117,3 +117,19 @@ knn.pred.new <- knn(train.norm.df[, -8], test = valid.norm.df[,-8],
 cf.val <- confusionMatrix(as.factor(knn.pred.new),as.factor(valid.norm.df[,8]))
 cf.val
 ```
+## Explanation:
+ The data is been trained using 75% of the data set and the rest 25% is used as validation. K-NN algorithm is used to predict if the loan is accepted or not (0 OR 1). Later preprocess function is used to normalize the data. The "center" argument in the preprocess function subtracts the mean of the predictor's data from the predictor values while "scale" divides by the standard deviation.A for loop is used for implementing different values of k to identify the k with best accuracy. Then the best k value which is 3 in this case is used with the new data and a confusion matrix is created.
+
+
+##Conclusion:
+A) Level: nn2 returned value 0 which means loan not accepted
+B) Best value of K is 3
+C) Confusion matrix of validation has an Accuracy : 0.9656 i.e. 96.56%
+
+
+
+
+
+
+
+

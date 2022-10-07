@@ -2,9 +2,7 @@
 title: "UniversalBank-MLProject"
 author: "Yeshil Bangera"
 date: "06/10/2022"
-output:
-  html_document:
-    keep_md: true
+output: github_document
 ---
 
 
@@ -16,8 +14,8 @@ library(lattice)
 library(ggplot2)
 library(FNN)
 ```
-
 ## Loading th dataset, eliminating and changing columns as factors 
+
 ```{r}
 loan_df <- read.csv("UniversalBank.csv")
 loan_df <- subset(loan_df, select = -5)
@@ -31,7 +29,6 @@ loan_df <- subset(loan_df, select = -1)
 head(loan_df)
 View(loan_df)
 ```
-
 
 ## Slpiting the data into training and validation. Also creating a data frame containing the new data.
 ```{r}

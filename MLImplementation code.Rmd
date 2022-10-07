@@ -2,9 +2,7 @@
 title: "UniversalBank-MLProject"
 author: "Yeshil Bangera"
 date: "06/10/2022"
-output:
-  html_document:
-    keep_md: true
+output:github_document
 ---
 
 

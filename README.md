@@ -3,7 +3,7 @@ This repository contains an implementation of a machine learning model for deter
 
 The dataset used for training and testing the model is a simulated version of a bank's personal loan data, including information on the applicant's credit score, income, employment history, and other relevant factors.
 
-The model was trained using a KNN algorithm, with different number's of nearest neighbors . The model's performance was evaluated using several metrics such as accuracy, precision, recall, and F1 score. The model was able to achieve an accuracy of approximately 95%.
+The model was trained using a KNN algorithm, with different number's of nearest neighbors . The model's performance was evaluated using several metrics such as accuracy, precision, recall, and F1 score. The model was able to achieve an accuracy of approximately 96.56%. The most effective nearest neighbors value is 3.
 
 The repository contains the following files:
 The R script containing the implementation of the KNN algorithm
